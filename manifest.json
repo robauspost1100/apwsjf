@@ -1,0 +1,19 @@
+{
+  "name": "Weighted Shortest Job First",
+  "details":"A power-up to calculate WSJF for a card",
+  "icon": {
+    "url": "priority.png"
+  },
+  "author": "Bill Hennessy",
+  "capabilities": [
+    "callback",
+    "card-buttons",
+    "card-badges",
+    "card-detail-badges"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./index.html"
+    }
+  }
+}
